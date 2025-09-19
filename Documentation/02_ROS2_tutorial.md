@@ -212,7 +212,7 @@ Create a new package "ros2_move_turtle" to control the movement of the previous 
 The program functionality will be based on 2 nodes:
 - The "/turtlesim" node we have already practice in last section
 - A new "/move_turtle" node that:
-    - subscribes to the "/turtle1/Pose" topic
+    - subscribes to the "/turtle1/pose" topic
     - Publish to the "/turtle1/cmd_vel" topic a message Twist
     - if the position in x or y direction of the robot is greater than 7m, the robot stops
 
